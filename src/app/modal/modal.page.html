@@ -1,0 +1,23 @@
+<ion-header translucent>
+  <ion-toolbar>
+    <ion-title>Modal Content</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="dismiss()">Close</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content padding class="form-content">
+  <form>
+    <ion-item>
+      <ion-label position="floating" color="dark">Title</ion-label>
+      <ion-input type="text" placeholder="Input title"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating" color="dark">Description</ion-label>
+      <ion-textarea></ion-textarea>
+    </ion-item>
+    <ion-button  expand="block" color="success">
+      Submit
+    </ion-button>
+  </form>
+</ion-content>
